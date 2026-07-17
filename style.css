@@ -1,17 +1,13 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: "Georgia", serif;
+    font-family: Georgia, serif;
     color: white;
 }
 
 .hero {
     height: 100vh;
-    background:
-    linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.75)),
-    url("moon.jpg");
-    background-size: cover;
-    background-position: center;
+    background: black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,7 +21,6 @@ body {
 h1 {
     font-size: 55px;
     letter-spacing: 3px;
-    margin-bottom: 20px;
 }
 
 h2 {
@@ -47,8 +42,4 @@ h2 {
     text-decoration: none;
     border-radius: 50px;
     font-size: 18px;
-}
-
-.button:hover {
-    opacity: 0.8;
 }
