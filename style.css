@@ -7,7 +7,12 @@ body {
 
 .hero {
     height: 100vh;
-    background: black;
+    background:
+    linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.75)),
+    url("images/moon.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
